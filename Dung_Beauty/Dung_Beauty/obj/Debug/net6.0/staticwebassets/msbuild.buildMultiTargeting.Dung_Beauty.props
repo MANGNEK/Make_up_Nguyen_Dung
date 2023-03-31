@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Dung_Beauty.props" />
+</Project>
