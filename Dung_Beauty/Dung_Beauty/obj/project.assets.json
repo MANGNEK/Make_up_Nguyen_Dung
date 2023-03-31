@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CODE\\Dung_Beauty\\Dung_Beauty\\Dung_Beauty.csproj",
+      "projectUniqueName": "D:\\Make_up_Nguyen_Dung\\Dung_Beauty\\Dung_Beauty\\Dung_Beauty.csproj",
       "projectName": "Dung_Beauty",
-      "projectPath": "D:\\CODE\\Dung_Beauty\\Dung_Beauty\\Dung_Beauty.csproj",
+      "projectPath": "D:\\Make_up_Nguyen_Dung\\Dung_Beauty\\Dung_Beauty\\Dung_Beauty.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\CODE\\Dung_Beauty\\Dung_Beauty\\obj\\",
+      "outputPath": "D:\\Make_up_Nguyen_Dung\\Dung_Beauty\\Dung_Beauty\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
