@@ -1,4 +1,4 @@
-$(document).foundation();
+﻿$(document).foundation();
 
 
 // Enable Scroll Reveal
@@ -65,3 +65,14 @@ jQuery(document).ready(function($){
 
 });
 
+$(document).ready(function () {
+	setInterval(function () {
+		// Di chuyển danh sách ảnh sang trái
+		$(".img-user").animate({ marginLeft: "-100%" }, 500, function () {
+			// Chèn ảnh mới vào phía bên phải
+			$(this).append($(this).find("li:first-child"));
+			// Đặt lại margin-left về 0
+			$(this).css("margin-left", 0);
+		});
+	}, 100);
+});

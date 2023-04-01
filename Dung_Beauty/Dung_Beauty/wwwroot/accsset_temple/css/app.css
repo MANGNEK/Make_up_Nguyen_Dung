@@ -8427,7 +8427,9 @@ input:-moz-placeholder, textarea:-moz-placeholder {
     .menu .main-navigation li a.m-anim:hover {
         padding: .625rem 1.25rem;
         border-color: #000;
-        outline: none
+        outline: none;
+      
+      
     }
 
     .menu .main-navigation li a.m-anim::before {
@@ -9566,4 +9568,20 @@ footer .copy-info {
             bottom: 0;
             right: 0;
             background-color: #fff
+        }
+
+.img-user {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+}
+    .img-user li {
+        margin-right: 10px;
+        width :100px;
+        height: 50px
+    }
+        .img-user li:last-child {
+            margin-right: 0;
         }
