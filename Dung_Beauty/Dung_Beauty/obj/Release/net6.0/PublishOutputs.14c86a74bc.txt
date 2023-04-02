@@ -1,0 +1,7 @@
+D:\Make_up_Nguyen_Dung\Dung_Beauty\Dung_Beauty\obj\Release\net6.0\PubTmp\Out\Dung_Beauty.exe
+D:\Make_up_Nguyen_Dung\Dung_Beauty\Dung_Beauty\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Make_up_Nguyen_Dung\Dung_Beauty\Dung_Beauty\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Make_up_Nguyen_Dung\Dung_Beauty\Dung_Beauty\obj\Release\net6.0\PubTmp\Out\Dung_Beauty.dll
+D:\Make_up_Nguyen_Dung\Dung_Beauty\Dung_Beauty\obj\Release\net6.0\PubTmp\Out\Dung_Beauty.deps.json
+D:\Make_up_Nguyen_Dung\Dung_Beauty\Dung_Beauty\obj\Release\net6.0\PubTmp\Out\Dung_Beauty.runtimeconfig.json
+D:\Make_up_Nguyen_Dung\Dung_Beauty\Dung_Beauty\obj\Release\net6.0\PubTmp\Out\Dung_Beauty.pdb

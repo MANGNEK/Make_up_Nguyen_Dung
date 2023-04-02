@@ -6779,7 +6779,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     border-top: 0;
     background: #fefefe;
     color: #3c3c3c;
-    transition: all 0.5s ease
+    transition: all 0.5s ease ;
 }
 
     .tabs-content.vertical {
@@ -9078,15 +9078,15 @@ input:-moz-placeholder, textarea:-moz-placeholder {
         min-height: 0px;
         min-width: 0px;
         width: calc(100% - 1.875rem);
-        margin-right: .9375rem;
-        margin-left: .9375rem
+        margin-right: auto;
+        margin-left: auto
     }
 
 @media print, screen and (min-width: 64em) {
     .menu-cart .menu-content .menu-section {
         width: calc(50% - 1.875rem);
-        margin-right: .9375rem;
-        margin-left: .9375rem
+        margin-right: auto;
+        margin-left: auto
     }
 }
 
@@ -9143,6 +9143,11 @@ input:-moz-placeholder, textarea:-moz-placeholder {
                 .menu-cart .menu-content .menu-section table tbody td:last-child span {
                     padding-left: .5em
                 }
+.menu-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 footer {
     padding: 3.125rem 0 0 0;
@@ -9598,4 +9603,5 @@ footer .copy-info {
                 transform: scale(1.1);
                 transition: transform 0.2s ease-in-out;
             }
+
 

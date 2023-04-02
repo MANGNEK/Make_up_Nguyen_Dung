@@ -90,4 +90,4 @@ setInterval(function () {
 		ul1.style.display = 'flex';
 	}
 }, 3000);
-
+//auto cuộn trang neesus người dùng không làm gì trong 5s
