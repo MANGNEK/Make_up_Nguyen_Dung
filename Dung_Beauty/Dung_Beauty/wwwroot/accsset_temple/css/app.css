@@ -9569,19 +9569,33 @@ footer .copy-info {
             right: 0;
             background-color: #fff
         }
-
-.img-user {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    transition: all 0.5s ease-in-out;
-}
-    .img-user li {
-        margin-right: 10px;
-        width :100px;
-        height: 50px
-    }
-        .img-user li:last-child {
-            margin-right: 0;
+        /*can anh gioi thieu*/
+        .carousel #img-user-1 ,.carousel #img-user-2,.carousel #img-user-3
+        {
+            transition: left 0.5s ease;
+            display : flex;
+            margin: 0;
+            padding: 0;
+            list-style: none; 
+            justify-content: center; /* canh giữa theo chiều ngang */
+            align-items: center; /* canh giữa theo chiều dọc */
         }
+
+        #img-user-1 li , #img-user-2 li , #img-user-3 li{
+            flex-shrink : 0;
+            list-style: none;
+        }
+        #img-user-1 img, #img-user-2 img, #img-user-3 img {
+                width: 350px;
+                height: 550px;
+                padding: 5px;
+                border-radius: 50px;
+                box-sizing: border-box;
+                border: 2px solid gold;
+
+         }
+            #img-user-1 li:hover, #img-user-2 li:hover, #img-user-3 li:hover {
+                transform: scale(1.1);
+                transition: transform 0.2s ease-in-out;
+            }
+

@@ -64,15 +64,30 @@ jQuery(document).ready(function($){
 	});
 
 });
+ // lam lớp chuyển ul user 
 
-$(document).ready(function () {
-	setInterval(function () {
-		// Di chuyển danh sách ảnh sang trái
-		$(".img-user").animate({ marginLeft: "-100%" }, 500, function () {
-			// Chèn ảnh mới vào phía bên phải
-			$(this).append($(this).find("li:first-child"));
-			// Đặt lại margin-left về 0
-			$(this).css("margin-left", 0);
-		});
-	}, 100);
-});
+// Lấy các ul
+const ul1 = document.getElementById("img-user-1");
+const ul2 = document.getElementById("img-user-2");
+const ul3 = document.getElementById("img-user-3");
+
+// Ẩn ul2 và ul3
+ul2.style.display = "none";
+ul3.style.display = "none";
+
+setInterval(function () {
+	if (ul1.style.display !== 'none') {
+		ul1.style.display = 'none';
+		ul2.style.display = 'block';
+		ul2.style.display = 'flex';
+	} else if (ul2.style.display !== 'none') {
+		ul2.style.display = 'none';
+		ul3.style.display = 'block';
+		ul3.style.display = 'flex';
+	} else if (ul3.style.display !== 'none') {
+		ul3.style.display = 'none';
+		ul1.style.display = 'block';
+		ul1.style.display = 'flex';
+	}
+}, 3000);
+
